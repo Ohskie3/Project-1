@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  
 
-</body>
 
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <button id="btn">click me</button>
 
-<script>
+  <div id="ingredients"></div>
 
-  axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script>
+
+    // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true&addRecipeInformation=true')
+    //   .then(res => {
+    //         console.log(res)
+    //   })
+    //   .catch(err =>{
+    //     console.error(err)
+    //   })
+
+    // axios.get('https://api.spoonacular.com/recipes/716429/information?query=chicken&apiKey=0ffc48a342dc490c8d58c9a94d66ab80&includeNutrition=true')
+    //     .then(res => {
+    //       console.log(res)
+    //     })
+    //     .catch(err => {
+    //       console.error(err)
+    //     })
+
+    axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
       .then(res => {
         //   console.log(res)
         // })
@@ -38,5 +58,8 @@
       .catch(err => {
         console.error(err)
       })
-</script>
+
+  </script>
+</body>
+
 </html>
