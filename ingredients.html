@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+
+  axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
+      .then(res => {
+        //   console.log(res)
+        // })
+        // .catch(err => {
+        //   console.error(err)
+        // })
+        let ingredients = res.data
+
+        console.log(ingredients)
+
+
+
+        document.getElementById('ingredients').innerHTML = `
+              <h1>dish: ${ingredients.creditsText}</h1>
+              <p>ingredients:${ingredients.extendedIngredients[0].name},${ingredients.extendedIngredients[1].name},${ingredients.extendedIngredients[3].name},${ingredients.extendedIngredients[4].name},${ingredients.extendedIngredients[5].name},${ingredients.extendedIngredients[6].name},${ingredients.extendedIngredients[7].name},${ingredients.extendedIngredients[8].name},${ingredients.extendedIngredients[9].name},${ingredients.extendedIngredients[10].name}</p>
+              <img src:"${ingredients.image}" alt="${ingredients.creditsText}"`
+
+      })
+
+      .catch(err => {
+        console.error(err)
+      })
+</script>
+</html>
