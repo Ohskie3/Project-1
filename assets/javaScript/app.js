@@ -24,6 +24,7 @@ document.addEventListener('click', event => {
   })
 })
 
+// Giphy Logic: 
 
 // document.getElementById('ingredients').innerHTML = `
 //     ingredients.forEach(ingredient => {
