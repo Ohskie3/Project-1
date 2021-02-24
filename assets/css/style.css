@@ -1,4 +1,12 @@
 #calorieCaculator {
   text-align: center;
   margin-top: 3%;
+
+.card.small {
+  max-width: 350px;
+}
+
+#calorieInput {
+  background-color: rgb(214, 210, 210);
+  text-align: center;
 }
