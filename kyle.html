@@ -41,12 +41,17 @@
       </div>
     </div>
   </div>
+  
+  <div id="myDiv">
 
-  <button id="quote">Search</button>
+    <button id="quote">Search</button>
+    <a rel="stylesheet" href="https://zenquotes.io/" target='_blank'>Link</a>
+    
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -55,16 +60,16 @@
 
   <!-- myJavaScript -->
   <script>
+    // calorie card
     document.getElementById('calPerDay').value = localStorage.getItem('savedCalories')
 
       document.getElementById('save').addEventListener('click', event => {
         event.preventDefault()
 
-
         let myNum = document.getElementById('calorieInput').value
         myNum.className = 'card-content white-text'
         document.getElementById('calPerDay').innerHTML = `
-        <p>${myNum} Calories per day</p>
+        <p>calories/day: ${myNum} </p>
     `
         document.getElementById('calorieInput').value = ''
 
@@ -72,8 +77,8 @@
 
       })
 
-
-      axios.get(`https://zenquotes.io/api/today`)
+// quote API
+      axios.get(`https://zenquotes.io/api/random`)
         .then(res => {
           console.log(res.data)
         })
