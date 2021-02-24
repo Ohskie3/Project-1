@@ -48,7 +48,7 @@
     //       console.error(err)
     //     })
 
-    axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=0ffc48a342dc490c8d58c9a94d66ab80&includeNutrition=true')
+    axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=caecc410cdf7406d8f2804239ab94a67&includeNutrition=true')
       .then(res => {
         //   console.log(res)
         // })
@@ -63,7 +63,17 @@
 
         document.getElementById('ingredients').innerHTML = `
               <h1>dish: ${ingredients.creditsText}</h1>
-              <p>ingredients:${ingredients.extendedIngredients[0].name},${ingredients.extendedIngredients[1].name},${ingredients.extendedIngredients[3].name},${ingredients.extendedIngredients[4].name},${ingredients.extendedIngredients[5].name},${ingredients.extendedIngredients[6].name},${ingredients.extendedIngredients[7].name},${ingredients.extendedIngredients[8].name},${ingredients.extendedIngredients[9].name},${ingredients.extendedIngredients[10].name}</p>
+              <p>ingredients:
+              ${ingredients.extendedIngredients[0].name},
+              ${ingredients.extendedIngredients[1].name},
+              ${ingredients.extendedIngredients[3].name},
+              ${ingredients.extendedIngredients[4].name},
+              ${ingredients.extendedIngredients[5].name},
+              ${ingredients.extendedIngredients[6].name},
+              ${ingredients.extendedIngredients[7].name},
+              ${ingredients.extendedIngredients[8].name},
+              ${ingredients.extendedIngredients[9].name},
+              ${ingredients.extendedIngredients[10].name}</p>
               <img src:"${ingredients.image}" alt="${ingredients.creditsText}"`
 
       })
