@@ -1,24 +1,36 @@
+// document.addEventListener('click', event => {
+//   if (event.target.className === 'ingredients')
+//   console.log(event.target.textContent)
+  
+//   axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=a051a9fc0e464018b80480edf905b93d`)
+//   .then(res => {
+//     let ingredients = res.data.results
+//     console.log(ingredients)
+    
+//     for (let i = 0; i < ingredients.length; i++) {
+//       console.log(i)
+    
+//       document.getElementById('ingredients').innerHTML += `
+//             <h5>dish: ${ingredients[i].title}</h5>
+//             <img src="${ingredients[i].image}" alt="${ingredients.title}">`
 
+//       document.getElementById('name').value = ''
+//     document.getElementById('ingredients').value = ''
 
-axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=chicken&apiKey=f305efd996cc4fa489c91ad83e4232a4&includeNutrition=true`)
-  .then(res => {
-    let food = res.data
+//     }
+//     })
+//     .catch(err => {
+//       console.error(err)
+//   })
+// })
 
-    console.log(food)
+// Giphy Logic: 
 
+// document.getElementById('ingredients').innerHTML = `
+//     ingredients.forEach(ingredient => {
+//       let foodElem = document.createElement('img')
+//       foodElem.src = ${ingredients[i].image}
+//       foodElem.alt = ${ingredients[i].title}
+//       `
 
-  })
-  .catch(err => console.error(err))
-
-axios.get('https://api.twitter.com/2/users/by/username/:spoonacular', {
-  headers: {
-    'Authorization': `Bearer ${AAAAAAAAAAAAAAAAAAAAAKw3NAEAAAAAoSP8jgHIVlfKe6dsTbPSxf641qI % 3DCcjr1eUzAVZ2M3PSqaLsVfYoNWncNUaoWyGrB5G16o8dlHnpK5}`
-  }
-})
-.then((res) => {
-  console.log(res.data)
-})
-.catch((error) => {
-  console.error(error)
-})
-
+// document.getElementById('ingredients').append(foodElem)
