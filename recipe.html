@@ -19,7 +19,7 @@
 
   <script>
 
-    axios.get('https://api.spoonacular.com/recipes/extract?url=https://foodista.com/recipe/ZHK4KPB6/chocolate-crinkle-cookies&apiKey=9e7d249518a54e1791464c0dda14f365&includeNutrition=true')
+    axios.get('https://api.spoonacular.com/recipes/extract?url=https://foodista.com/recipe/ZHK4KPB6/chocolate-crinkle-cookies&apiKey=f305efd996cc4fa489c91ad83e4232a4&includeNutrition=true')
 
 
         .then(res => {
@@ -29,7 +29,23 @@
           console.log(ingredients)
 
           document.getElementById('ingredients').innerHTML = `
-              <p>recipe: ${ingredients.instructions}</p>
+              <div>
+                <h2>Ingredients:</h2>
+                <ul>
+                  <li>${ingredients.extendedIngredients[0].original}</li>
+                  <li>${ingredients.extendedIngredients[1].original}</li>
+                  <li>${ingredients.extendedIngredients[2].original}</li>
+                  <li>${ingredients.extendedIngredients[3].original}</li>
+                  <li>${ingredients.extendedIngredients[4].original}</li>
+                  <li>${ingredients.extendedIngredients[5].original}</li>
+                  <li>${ingredients.extendedIngredients[6].original}</li>
+                  <li>${ingredients.extendedIngredients[7].original}</li>
+                  <li>${ingredients.extendedIngredients[8].original}</li>
+                  <li>${ingredients.extendedIngredients[9].original}</li>
+                </ul>
+              </div>
+              <h2>Instructions:</h2>
+              <p>${ingredients.instructions}</p>
               `
         })
       .catch(err => {
