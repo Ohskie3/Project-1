@@ -26,6 +26,18 @@ body {
   height: 225px;
   background-size: cover;
   color: black;
+/* #ingredients {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr; 
+   grid-template-rows: 2fr 2fr 2fr; 
+} */
+
+#ingredients {
+  /* display: flex;
+  flex-wrap: wrap;
+  margin:auto; */
+  justify-content: center;
+  margin-left: 300px;
 }
 
 /* #calorieInput {
