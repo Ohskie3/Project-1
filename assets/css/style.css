@@ -26,6 +26,15 @@
 }
 
 #months {
+#quotes {
+  background-image: url("../images/zen2.jpg");
+  height: 225px;
+  background-size: cover;
+  color: black;
+}
+
+/* #calorieInput {
+  background-color: rgb(214, 210, 210);
   text-align: center;
   margin-top: 3%;
 }
