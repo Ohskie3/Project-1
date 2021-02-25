@@ -22,10 +22,10 @@ body {
 }
 
 #quotes {
-  background-image: url("../images/zen.jpg");
+  background-image: url("../images/zen2.jpg");
   height: 165px;
   background-size: cover;
-  color: white;
+  color: black;
 }
 
 /* #calorieInput {
