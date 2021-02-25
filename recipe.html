@@ -30,6 +30,9 @@
       margin-left: 100px;
 
     }
+    #recipe {
+      padding-left: 1em;
+    }
   </style>
 
   <!-- Compiled and minified CSS -->
@@ -73,6 +76,8 @@
 
   </div>
 
+  <div id="myList"></div>
+
   <!-- <div>  -->
 
   <!-- <img src="pngtree-png-image_1701364.jpg" style="transform: translate3d(-50%, 326.222px, 0px); opacity: 1;"> -->
@@ -90,7 +95,7 @@
     event.preventDefault()
 
     let name = document.getElementById('name').value
-
+    let mealList = []
 
     //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
     axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=f305efd996cc4fa489c91ad83e4232a4`)
@@ -137,10 +142,11 @@
           .then(res => {
             
             let recipe = res.data
+            let dish = recipe.title
             
             console.log(recipe)
 
-        for (let i=0; i < recipe.extendedIngredients.length; i++){
+            for (let i=0; i < recipe.extendedIngredients.length; i++){
 
             document.getElementById('recipe').innerHTML = `
             <div>
@@ -176,9 +182,12 @@
               .catch(err => {
                 console.error(err)
               })
+            } else if(event.target.classList.contains('myFoodList')) {
+              console.log(event.target)
+              document.getElementById('myList').append(dish)
+
             }
           })
-            
       })
           
           
