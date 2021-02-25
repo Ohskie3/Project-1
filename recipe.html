@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <button id="btn">click me</button>
+
+  <div id="ingredients"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script>
+
+    axios.get('https://api.spoonacular.com/recipes/extract?url=https://foodista.com/recipe/ZHK4KPB6/chocolate-crinkle-cookies&apiKey=9e7d249518a54e1791464c0dda14f365&includeNutrition=true')
+
+
+        .then(res => {
+
+          let ingredients = res.data
+
+          console.log(ingredients)
+
+          document.getElementById('ingredients').innerHTML = `
+              <p>recipe: ${ingredients.instructions}</p>
+              `
+        })
+      .catch(err => {
+        console.error(err)
+      })
+
+      </script>
+      </body>
+      
+      </html>
