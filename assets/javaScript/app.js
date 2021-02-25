@@ -20,12 +20,11 @@ document.getElementById('search').addEventListener('click', event => {
 
       // for (let i = 0; i < ingredients.length; i++) {
 
-      for (let i = 0; i < 6; i++) {
+      for (let i = 0; i < 2; i++) {
 
         document.getElementById('ingredients').innerHTML += `
-        
-           <p>dish: ${ingredients[i].title}</p>
-           <img src="${ingredients[i].image}" alt="${ingredients.title}">`
+        <p id="shrink">dish: ${ingredients[i].title}</p>
+           <img src="${ingredients[i].image}" alt="${ingredients.title}" id="imagesFixed">`
 
         document.getElementById('name').value = ''
 
