@@ -21,6 +21,13 @@ body {
   font-size: 40px;
 }
 
+#quotes {
+  background-image: url("../images/zen.jpg");
+  height: 165px;
+  background-size: cover;
+  color: white;
+}
+
 /* #calorieInput {
   background-color: rgb(214, 210, 210);
   text-align: center;

@@ -24,6 +24,18 @@ document.addEventListener('click', event => {
   })
 })
 
+axios.get(`https://favqs.com/api/qotd`)
+  .then(res => {
+    console.log(res.data)
+    let quote = res.data
+    document.getElementById('quotes').innerHTML = `
+            <p>${quote.quote.body}</p>
+            <p> - ${quote.quote.author}</p>
+          `
+
+  })
+  .catch(err => console.error(err))
+
 // Giphy Logic: 
 
 // document.getElementById('ingredients').innerHTML = `
