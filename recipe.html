@@ -6,35 +6,156 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <style>
+    /* .main-container {
+      text-align: center;
+      /* background-image: linear-gradient(rgb(33, 64, 121), rgb(122, 164, 243)) ;  */
+
+    /* background-image:pngtree-png-image_1701364;  */
+
+    /* } */
+    body {
+      background: radial-gradient(circle, rgb(253, 246, 148), white);
+    }
+
+    #sidesearch {
+
+      margin-left: 50px;
+
+      /* background-color: lightgrey; */
+    }
+
+    .brand-logo {
+      margin-left: 100px;
+
+    }
+  </style>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
 <body>
 
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Recipe Search</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
 
-  <button id="btn">click me</button>
+  <!-- Page Layout here -->
+  <div id="sidesearch" class="row">
 
-  <div id="ingredients"></div>
+    <div class="col s3">
+      <form>
+        <p>
+          <label for="name">Recipe name</label>
+          <input type="text" name="name" id="name">
+        </p>
+        <button id="search">Search for Recipe</button>
+      </form>
+      <!-- <div id="RecipeDisplay"></div> -->
+    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <div class="col s9">
+      <div id="ingredients"></div>
+    </div>
 
-  <script>
+  </div>
 
-    axios.get('https://api.spoonacular.com/recipes/extract?url=https://foodista.com/recipe/ZHK4KPB6/chocolate-crinkle-cookies&apiKey=9e7d249518a54e1791464c0dda14f365&includeNutrition=true')
+  <div id="recipe"></div>
+
+  <!-- <div>  -->
+
+  <!-- <img src="pngtree-png-image_1701364.jpg" style="transform: translate3d(-50%, 326.222px, 0px); opacity: 1;"> -->
+  <!-- <img width="1500px" height="800px" src="pngtree-png-image_1701364.jpg"> -->
+
+
+  <!-- <button id="btn">click me</button>
+
+  <div id="ingredients"></div> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+  document.getElementById('search').addEventListener('click', event => {
+    event.preventDefault()
+
+    let name = document.getElementById('name').value
+
+
+
+    //d7ef68f1acc34dedb93dd4613a30a40f
+
+    //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=chicken&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
+
+    //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
+    axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=9e7d249518a54e1791464c0dda14f365`)
+
+      // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
+      .then(res => {
+
+        let ingredients = res.data.results
+
+        console.log(ingredients)
+
+        for (let i = 0; i < 2; i++) {
+
+          console.log(i)
+
+          document.getElementById('ingredients').innerHTML += `
+            <h5>dish: ${ingredients[i].title}</h5>
+            <img src="${ingredients[i].image}" alt="${ingredients.title}"
+            >
+            <button data-recipe_id=${ingredients[i].id}class="recipeclass">see recipe</button>
+            `
+
+          document.getElementById('name').value = ''
+
+          document.getElementById('ingredients').value = ''
+
+
+        }
+
+
+      })
+
+      .catch(err => {
+        console.error(err)
+      })
+
+  // })
+
+    if (event.target.classList.contains('recipeclass')) {
+
+      console.log('hi')
+
+    axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=9e7d249518a54e1791464c0dda14f365&includeNutrition=true`)
 
 
         .then(res => {
 
-          let ingredients = res.data
+          let recipe = res.data
 
-          console.log(ingredients)
+          console.log(recipe)
 
-          document.getElementById('ingredients').innerHTML = `
-              <p>recipe: ${ingredients.instructions}</p>
-              `
-        })
+          // document.getElementById('recipe').innerHTML = `
+          //     <p>recipe: ${recipe.instructions}</p>
+          //     `
+        }) 
       .catch(err => {
         console.error(err)
       })
+    }
+
+    })
+    
 
       </script>
       </body>
