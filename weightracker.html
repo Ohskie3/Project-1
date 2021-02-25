@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daily Weight Track</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-      <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
   <nav>
     <div class="nav-wrapper">
@@ -17,11 +19,68 @@
       </ul>
     </div>
   </nav>
-  
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h2 id="dailyWeightTracker">Daily Weight Tracker</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="months" class="container">
+    <div class="row">
+      <div class="col s4">
+        <button class="createBtn">January</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">February</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">March</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s4">
+        <button class="createBtn">April</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">May</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">June</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s4">
+        <button class="createBtn">July</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">August</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">September</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s4">
+        <button class="createBtn">October</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">November</button>
+      </div>
+      <div class="col s4">
+        <button class="createBtn">December</button>
+      </div>
+    </div>
+  </div>
+
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./assets/javaScript/app.js"></script>
-  </body>
 </body>
+</body>
+
 </html>
