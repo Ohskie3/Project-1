@@ -112,6 +112,7 @@
             <img src="${ingredients[i].image}" alt="${ingredients.title}"
             >
             <button data-recipe_id="${ingredients[i].id}" class="recipeclass">see recipe</button>
+            <button data-meal_name="${ingredients.title} class = "myFoodList" 
             `
 
           document.getElementById('name').value = ''
@@ -139,17 +140,22 @@
             
             console.log(recipe)
 
-        for (let i=0; i < recipe.extendedIngredients; i++){
+        for (let i=0; i < recipe.extendedIngredients.length; i++){
 
             document.getElementById('recipe').innerHTML = `
             <div>
               <h2>Ingredients:</h2>
               <ul>
-                <li>${recipe.extendedIngredients[i].original}</li>
+                <li>${recipe.extendedIngredients[0].original}</li>
+                <li>${recipe.extendedIngredients[1].original}</li>
+                <li>${recipe.extendedIngredients[2].original}</li>
+                <li>${recipe.extendedIngredients[3].original}</li>
+                <li>${recipe.extendedIngredients[4].original}</li>
+                <li>${recipe.extendedIngredients[5].original}</li>
                 </ul>
               </div>
                 <h2>Instructions:</h2>
-                <p>${ingredients.instructions}</p>
+                <p>${recipe.instructions}</p>
                 `
               
                 //  < li > ${ recipe.extendedIngredients[i].original }</ >
