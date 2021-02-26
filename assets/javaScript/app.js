@@ -1,3 +1,14 @@
+document.getElementById('save').addEventListener('click', event => {
+  event.preventDefault()
+
+    let myCal = document.getElementById('calorieInput').value
+    document.getElementById('calPerDay').innerHTML = `
+    <p>calories/day: ${myCal} </p>
+    `
+    document.getElementById('calorieInput').value = localStorage.getItem('mySavedCalories')
+    localStorage.setItem('mySavedCalories', document.getElementById('calorieInput').value)  
+})
+
 axios.get(`https://favqs.com/api/qotd`)
   .then(res => {
     console.log(res.data)
