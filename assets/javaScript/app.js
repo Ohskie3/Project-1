@@ -9,7 +9,6 @@ document.getElementById('save').addEventListener('click', event => {
     localStorage.setItem('mySavedCalories', document.getElementById('calorieInput').value)  
 })
 
-<<<<<<< HEAD
 //   let name = document.getElementById('name').value
 
 
@@ -78,8 +77,6 @@ document.getElementById('save').addEventListener('click', event => {
 //       console.error(err)
 //   })
 // })
-=======
->>>>>>> ef71664b28f70c61cf0c9451a76cb44c2ada9c51
 axios.get(`https://favqs.com/api/qotd`)
   .then(res => {
     console.log(res.data)
