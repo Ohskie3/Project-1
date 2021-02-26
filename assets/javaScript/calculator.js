@@ -2,7 +2,7 @@ document.getElementById('calorieInput').value = localStorage.getItem('mySavedCal
 document.getElementById('calPerDay').innerHTML = `
   <p>calories/day: ${localStorage.getItem('mySavedCalories')} </p>
   `
-document.getElementById('calorieInput').value = ''
+  document.getElementById('calorieInput').value = ''
 
 
 document.getElementById('save').addEventListener('click', event => {
@@ -18,28 +18,3 @@ document.getElementById('save').addEventListener('click', event => {
 
   document.getElementById('calorieInput').value = ''
 })
-
-
-
-
-
-
-
-
-
-
-// document.getElementById('calPerDay').value = localStorage.getItem('savedCalories')
-
-// document.getElementById('save').addEventListener('click', event => {
-//   event.preventDefault()
-
-//   let myNum = document.getElementById('calorieInput').value
-//   myNum.className = 'card-content white-text'
-//   document.getElementById('calPerDay').innerHTML = `
-//         <p>${myNum} </p>
-//     `
-//   document.getElementById('calorieInput').value = ''
-
-//   localStorage.setItem('savedCalories', myNum)
-
-// })
