@@ -26,11 +26,16 @@
 }
 
 #months {
+  text-align: center;
+}
+
 #quotes {
   background-image: url("../images/zen2.jpg");
   height: 225px;
   background-size: cover;
   color: black;
+  font-size: 18px;
+  font-family: 'Arima Madurai', cursive;
 }
 
 /* #calorieInput {
