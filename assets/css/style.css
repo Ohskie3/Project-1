@@ -21,8 +21,6 @@
   font-size: 40px;
 }
 
-<<<<<<< HEAD
-=======
 #dailyWeightTracker {
   text-align: center;
 }
@@ -31,14 +29,11 @@
   text-align: center;
 }
 
->>>>>>> 22ba2079b17e23cf3c2dcfede5bac9886ea59253
 #quotes {
   background-image: url("../images/zen2.jpg");
   height: 225px;
   background-size: cover;
   color: black;
-<<<<<<< HEAD
-=======
   font-size: 18px;
   font-family: 'Arima Madurai', cursive;
 }
@@ -58,7 +53,6 @@
   top: 45px
 }
 
->>>>>>> 22ba2079b17e23cf3c2dcfede5bac9886ea59253
 /* #ingredients {
    display: grid;
    grid-template-columns: 2fr 2fr 2fr; 
@@ -69,13 +63,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-<<<<<<< HEAD
-  margin-left: 300px;
-=======
   /* margin:auto; */
   /* justify-content: center;
   margin-left: 300px; */
->>>>>>> 22ba2079b17e23cf3c2dcfede5bac9886ea59253
 }
 
 /* #calorieInput {
