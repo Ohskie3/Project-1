@@ -1,14 +1,3 @@
-document.getElementById('save').addEventListener('click', event => {
-  event.preventDefault()
-
-    let myCal = document.getElementById('calorieInput').value
-    document.getElementById('calPerDay').innerHTML = `
-    <p>calories/day: ${myCal} </p>
-    `
-    document.getElementById('calorieInput').value = localStorage.getItem('mySavedCalories')
-    localStorage.setItem('mySavedCalories', document.getElementById('calorieInput').value)  
-})
-
 axios.get(`https://favqs.com/api/qotd`)
   .then(res => {
     console.log(res.data)
@@ -30,7 +19,7 @@ document.getElementById('search').addEventListener('click', event => {
   let mealList = []
 
   document.getElementById('recipe').textContent = ''
-  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=f305efd996cc4fa489c91ad83e4232a4`)
+  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=caecc410cdf7406d8f2804239ab94a67`)
 
     .then(res => {
 
@@ -66,7 +55,7 @@ document.getElementById('search').addEventListener('click', event => {
 
       console.log('hi')
 
-      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=f305efd996cc4fa489c91ad83e4232a4&includeNutrition=true`)
+      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=caecc410cdf7406d8f2804239ab94a67&includeNutrition=true`)
 
 
         .then(res => {
@@ -104,20 +93,4 @@ document.getElementById('search').addEventListener('click', event => {
 
     }
   })
-})
-
-document.getElementById('calPerDay').value = localStorage.getItem('savedCalories')
-
-document.getElementById('save').addEventListener('click', event => {
-  event.preventDefault()
-
-  let myNum = document.getElementById('calorieInput').value
-  myNum.className = 'card-content white-text'
-  document.getElementById('calPerDay').innerHTML = `
-        <p>${myNum} </p>
-    `
-  document.getElementById('calorieInput').value = ''
-
-  localStorage.setItem('savedCalories', myNum)
-
 })
