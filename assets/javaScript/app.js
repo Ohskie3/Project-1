@@ -1,3 +1,13 @@
+document.getElementById('save').addEventListener('click', event => {
+  event.preventDefault()
+
+    let myCal = document.getElementById('calorieInput').value
+    document.getElementById('calPerDay').innerHTML = `
+    <p>calories/day: ${myCal} </p>
+    `
+    document.getElementById('calorieInput').value = localStorage.getItem('mySavedCalories')
+    localStorage.setItem('mySavedCalories', document.getElementById('calorieInput').value)  
+})
 
 axios.get(`https://favqs.com/api/qotd`)
   .then(res => {
@@ -19,7 +29,7 @@ document.getElementById('search').addEventListener('click', event => {
   let name = document.getElementById('name').value
   let mealList = []
 
-
+  document.getElementById('recipe').textContent = ''
   axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=f305efd996cc4fa489c91ad83e4232a4`)
 
     .then(res => {
@@ -37,7 +47,7 @@ document.getElementById('search').addEventListener('click', event => {
             <img src="${ingredients[i].image}" alt="${ingredients.title}"
             >
             <button data-recipe_id="${ingredients[i].id}" class="recipeclass">see recipe</button>
-            <button data-meal_name="${ingredients.title} class = "myFoodList">Add to List</button> 
+            <button data-meal_name="${ingredients[i].title} class = "myFoodList">Add to List</button> 
             `
 
         document.getElementById('name').value = ''
@@ -88,10 +98,26 @@ document.getElementById('search').addEventListener('click', event => {
         .catch(err => {
           console.error(err)
         })
-    } else if (event.target.classList.contains('myFoodList')) {
-      console.log(event.target)
+    } if (event.target.classList.contains('myFoodList')) {
+      console.log('hi')
       document.getElementById('myList').append(dish)
 
     }
   })
+})
+
+document.getElementById('calPerDay').value = localStorage.getItem('savedCalories')
+
+document.getElementById('save').addEventListener('click', event => {
+  event.preventDefault()
+
+  let myNum = document.getElementById('calorieInput').value
+  myNum.className = 'card-content white-text'
+  document.getElementById('calPerDay').innerHTML = `
+        <p>${myNum} </p>
+    `
+  document.getElementById('calorieInput').value = ''
+
+  localStorage.setItem('savedCalories', myNum)
+
 })

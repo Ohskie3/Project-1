@@ -48,7 +48,7 @@
    grid-template-columns: 2fr 2fr 2fr; 
    grid-template-rows: 2fr 2fr 2fr; 
 } */
-
+}
 #ingredients {
   /* display: flex;
   flex-wrap: wrap;
@@ -87,7 +87,12 @@
   margin-left: 300px; */
 }
 
+#recipe {
+  padding-left: 1.5em;
+}
+
 /* #calorieInput {
   background-color: rgb(214, 210, 210);
   text-align: center;
 }
+
