@@ -5,12 +5,13 @@ document.getElementById('search').addEventListener('click', event => {
 
 
 
-//   //d7ef68f1acc34dedb93dd4613a30a40f
+  //d7ef68f1acc34dedb93dd4613a30a40f
 
 
-//   axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=d7ef68f1acc34dedb93dd4613a30a40f`)
+  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=d7ef68f1acc34dedb93dd4613a30a40f`)
 
     axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
+    // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
     .then(res => {
 
       let ingredients = res.data.results
@@ -19,6 +20,7 @@ document.getElementById('search').addEventListener('click', event => {
 
 
       for (let i = 0; i < ingredients.length; i++) {
+      // for (let i = 0; i < ingredients.length; i++) {
 
       for (let i = 0; i < 2; i++) {
 
@@ -87,14 +89,3 @@ axios.get(`https://favqs.com/api/qotd`)
 
   })
   .catch(err => console.error(err))
-
-// Giphy Logic: 
-
-// document.getElementById('ingredients').innerHTML = `
-//     ingredients.forEach(ingredient => {
-//       let foodElem = document.createElement('img')
-//       foodElem.src = ${ingredients[i].image}
-//       foodElem.alt = ${ingredients[i].title}
-//       `
-
-// document.getElementById('ingredients').append(foodElem)
