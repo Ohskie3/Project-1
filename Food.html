@@ -97,7 +97,7 @@
       //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=chicken&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
 
       //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
-      axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=a051a9fc0e464018b80480edf905b93d`)
+      axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=9e7d249518a54e1791464c0dda14f365`)
 
         // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
         .then(res => {
@@ -112,7 +112,10 @@
 
             document.getElementById('ingredients').innerHTML += `
             <h5>dish: ${ingredients[i].title}</h5>
-            <img src="${ingredients[i].image}" alt="${ingredients.title}">`
+            <img src="${ingredients[i].image}" alt="${ingredients.title}"
+            >
+            <button data-recipe_id=${ingredients[i].id}>see recipe</button>
+            `
 
             document.getElementById('name').value = ''
 

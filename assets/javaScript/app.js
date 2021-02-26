@@ -86,3 +86,15 @@ axios.get(`https://favqs.com/api/qotd`)
 
   })
   .catch(err => console.error(err))
+
+// Giphy Logic: 
+
+// document.getElementById('ingredients').innerHTML = `
+//     ingredients.forEach(ingredient => {
+//       let foodElem = document.createElement('img')
+//       foodElem.src = ${ingredients[i].image}
+//       foodElem.alt = ${ingredients[i].title}
+//       `
+
+  })
+  .catch(err => console.error(err))
