@@ -185,6 +185,7 @@ document.getElementById('save').addEventListener('click', event => {
         <p>${myNum} </p>
     `
   document.getElementById('calorieInput').value = ''
+  console.log(myNum)
 
   localStorage.setItem('savedCalories', myNum)
 
