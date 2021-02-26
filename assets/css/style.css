@@ -2,10 +2,6 @@
   background-color: #ffab00 !important;
 }
 
-/* body {
-  background: radial-gradient(circle, rgb(255, 235, 146), white);
-} */
-
 #quotes {
   text-align: center;
   font-size: 30px;
@@ -72,20 +68,6 @@
   top: 45px
 }
 
-/* #ingredients {
-   display: grid;
-   grid-template-columns: 2fr 2fr 2fr; 
-   grid-template-rows: 2fr 2fr 2fr; 
-} */
-
-#ingredients {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* margin:auto; */
-  /* justify-content: center;
-  margin-left: 300px; */
-}
 
 #recipe {
   padding-left: 1.5em;
