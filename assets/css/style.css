@@ -2,14 +2,14 @@
   background-color: #ffab00 !important;
 }
 
-/* body {
-  background: radial-gradient(circle, rgb(255, 235, 146), white);
-} */
-
 #quotes {
   text-align: center;
   font-size: 30px;
   margin-top: 5%;
+}
+
+#calcCard {
+  margin-top: 3%;
 }
 
 #cardCal {
