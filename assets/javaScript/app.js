@@ -1,4 +1,3 @@
-
 axios.get(`https://favqs.com/api/qotd`)
   .then(res => {
     console.log(res.data)
