@@ -1,6 +1,5 @@
-// document.getElementById('search').addEventListener('click', event => {
-//   event.preventDefault()
 
+<<<<<<< HEAD
 //   let name = document.getElementById('name').value
 
 
@@ -69,6 +68,8 @@
 //       console.error(err)
 //   })
 // })
+=======
+>>>>>>> ef71664b28f70c61cf0c9451a76cb44c2ada9c51
 axios.get(`https://favqs.com/api/qotd`)
   .then(res => {
     console.log(res.data)
@@ -81,30 +82,17 @@ axios.get(`https://favqs.com/api/qotd`)
   })
   .catch(err => console.error(err))
 
-// Giphy Logic: 
-
-// document.getElementById('ingredients').innerHTML = `
-//     ingredients.forEach(ingredient => {
-//       let foodElem = document.createElement('img')
-//       foodElem.src = ${ingredients[i].image}
-//       foodElem.alt = ${ingredients[i].title}
-//       `
-
-// document.getElementById('ingredients').append(foodElem)
 
 
-// recipe.html javscript
 document.getElementById('search').addEventListener('click', event => {
   event.preventDefault()
 
   let name = document.getElementById('name').value
   let mealList = []
 
-  //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
+
   axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=f305efd996cc4fa489c91ad83e4232a4`)
 
-    // axios.get('https://api.spoonacular.com/recipes/extract?url=https://foodista.com/recipe/ZHK4KPB6/chocolate-crinkle-cookies&apiKey=f305efd996cc4fa489c91ad83e4232a4&includeNutrition=true')
-    // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
     .then(res => {
 
       let ingredients = res.data.results
@@ -166,20 +154,6 @@ document.getElementById('search').addEventListener('click', event => {
                 <h2>Instructions:</h2>
                 <p>${recipe.instructions}</p>
                 `
-
-            //  < li > ${ recipe.extendedIngredients[i].original }</ >
-            // <li>${recipe.extendedIngredients[i].original}</li>
-            // <li>${recipe.extendedIngredients[i].original}</li>
-            // <li>${recipe.extendedIngredients[4].original}</li>
-            // <li>${recipe.extendedIngredients[5].original}</li>
-            // <li>${recipe.extendedIngredients[6].original}</li>
-            // <li>${recipe.extendedIngredients[7].original}</li>
-            // <li>${recipe.extendedIngredients[8].original}</li>
-            // <li>${recipe.extendedIngredients[9].original}</li>
-            // document.getElementById('recipe').innerHTML = `
-            //     <p>recipe: ${recipe.instructions}</p>
-            //  
-            //  `
           }
         })
         .catch(err => {
