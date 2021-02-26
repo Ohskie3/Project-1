@@ -1,3 +1,82 @@
+document.getElementById('save').addEventListener('click', event => {
+  event.preventDefault()
+
+    let myCal = document.getElementById('calorieInput').value
+    document.getElementById('calPerDay').innerHTML = `
+    <p>calories/day: ${myCal} </p>
+    `
+    document.getElementById('calorieInput').value = localStorage.getItem('mySavedCalories')
+    localStorage.setItem('mySavedCalories', document.getElementById('calorieInput').value)  
+})
+
+//   let name = document.getElementById('name').value
+
+
+
+//   //d7ef68f1acc34dedb93dd4613a30a40f
+
+
+//   axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=d7ef68f1acc34dedb93dd4613a30a40f`)
+
+//     // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
+//     .then(res => {
+
+//       let ingredients = res.data.results
+
+//       console.log(ingredients)
+
+
+//       // for (let i = 0; i < ingredients.length; i++) {
+
+//       for (let i = 0; i < 2; i++) {
+
+//         document.getElementById('ingredients').innerHTML += `
+//         <p id="shrink">dish: ${ingredients[i].title}</p>
+//            <img src="${ingredients[i].image}" alt="${ingredients.title}" id="imagesFixed">`
+
+//         document.getElementById('name').value = ''
+
+//         document.getElementById('ingredients').value = ''
+
+
+//       }
+
+
+//     })
+
+//     .catch(err => {
+//       console.error(err)
+//     })
+
+// })
+
+
+
+// document.addEventListener('click', event => {
+//   if (event.target.className === 'ingredients')
+//   console.log(event.target.textContent)
+
+//   axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=a051a9fc0e464018b80480edf905b93d`)
+//   .then(res => {
+//     let ingredients = res.data.results
+//     console.log(ingredients)
+
+//     for (let i = 0; i < ingredients.length; i++) {
+//       console.log(i)
+
+//       document.getElementById('ingredients').innerHTML += `
+//             <h5>dish: ${ingredients[i].title}</h5>
+//             <img src="${ingredients[i].image}" alt="${ingredients.title}">`
+
+//       document.getElementById('name').value = ''
+//     document.getElementById('ingredients').value = ''
+
+//     }
+//     })
+//     .catch(err => {
+//       console.error(err)
+//   })
+// })
 axios.get(`https://favqs.com/api/qotd`)
   .then(res => {
     console.log(res.data)
@@ -19,7 +98,7 @@ document.getElementById('search').addEventListener('click', event => {
   let mealList = []
 
   document.getElementById('recipe').textContent = ''
-  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=caecc410cdf7406d8f2804239ab94a67`)
+  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=d7ef68f1acc34dedb93dd4613a30a40f`)
 
     .then(res => {
 
@@ -55,7 +134,7 @@ document.getElementById('search').addEventListener('click', event => {
 
       console.log('hi')
 
-      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=caecc410cdf7406d8f2804239ab94a67&includeNutrition=true`)
+      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
 
 
         .then(res => {
@@ -93,4 +172,21 @@ document.getElementById('search').addEventListener('click', event => {
 
     }
   })
+})
+
+document.getElementById('calPerDay').value = localStorage.getItem('savedCalories')
+
+document.getElementById('save').addEventListener('click', event => {
+  event.preventDefault()
+
+  let myNum = document.getElementById('calorieInput').value
+  myNum.className = 'card-content white-text'
+  document.getElementById('calPerDay').innerHTML = `
+        <p>${myNum} </p>
+    `
+  document.getElementById('calorieInput').value = ''
+  console.log(myNum)
+
+  localStorage.setItem('savedCalories', myNum)
+
 })

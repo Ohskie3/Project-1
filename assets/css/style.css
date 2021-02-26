@@ -38,17 +38,7 @@
   font-family: 'Arima Madurai', cursive;
 }
 
-  #quotes {
-  background-image: url("../images/zen2.jpg");
-  height: 225px;
-  background-size: cover;
-  color: black;
-/* #ingredients {
-   display: grid;
-   grid-template-columns: 2fr 2fr 2fr; 
-   grid-template-rows: 2fr 2fr 2fr; 
-} */
-}
+ 
 #ingredients {
   /* display: flex;
   flex-wrap: wrap;
@@ -71,6 +61,13 @@
   position: relative;
   top: 45px
 }
+
+/* #ingredients {
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr; 
+   grid-template-rows: 2fr 2fr 2fr; 
+} */
+
 
 
 #recipe {
