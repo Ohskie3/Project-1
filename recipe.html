@@ -78,15 +78,7 @@
 
   <div id="myList"></div>
 
-  <!-- <div>  -->
 
-  <!-- <img src="pngtree-png-image_1701364.jpg" style="transform: translate3d(-50%, 326.222px, 0px); opacity: 1;"> -->
-  <!-- <img width="1500px" height="800px" src="pngtree-png-image_1701364.jpg"> -->
-
-
-  <!-- <button id="btn">click me</button>
-
-  <div id="ingredients"></div> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
@@ -97,11 +89,9 @@
     let name = document.getElementById('name').value
     let mealList = []
 
-    //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
     axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=f305efd996cc4fa489c91ad83e4232a4`)
 
-    // axios.get('https://api.spoonacular.com/recipes/extract?url=https://foodista.com/recipe/ZHK4KPB6/chocolate-crinkle-cookies&apiKey=f305efd996cc4fa489c91ad83e4232a4&includeNutrition=true')
-      // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
+    
       .then(res => {
 
         let ingredients = res.data.results
@@ -163,20 +153,7 @@
                 <h2>Instructions:</h2>
                 <p>${recipe.instructions}</p>
                 `
-              
-                //  < li > ${ recipe.extendedIngredients[i].original }</ >
-                // <li>${recipe.extendedIngredients[i].original}</li>
-                // <li>${recipe.extendedIngredients[i].original}</li>
-                // <li>${recipe.extendedIngredients[4].original}</li>
-                // <li>${recipe.extendedIngredients[5].original}</li>
-                // <li>${recipe.extendedIngredients[6].original}</li>
-                // <li>${recipe.extendedIngredients[7].original}</li>
-                // <li>${recipe.extendedIngredients[8].original}</li>
-                // <li>${recipe.extendedIngredients[9].original}</li>
-                // document.getElementById('recipe').innerHTML = `
-                //     <p>recipe: ${recipe.instructions}</p>
-                //  
-                  //  `
+             
               }
               })
               .catch(err => {
