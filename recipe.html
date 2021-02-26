@@ -8,13 +8,6 @@
   <title>Document</title>
 
   <style>
-    /* .main-container {
-      text-align: center;
-      /* background-image: linear-gradient(rgb(33, 64, 121), rgb(122, 164, 243)) ;  */
-
-    /* background-image:pngtree-png-image_1701364;  */
-
-    /* } */
     body {
       background: radial-gradient(circle, rgb(253, 246, 148), white);
     }
@@ -94,15 +87,15 @@
     
       .then(res => {
 
-        let ingredients = res.data.results
+          let ingredients = res.data.results
 
-        console.log(ingredients)
+          console.log(ingredients)
 
         for (let i = 0; i < 1; i++) {
 
-          console.log(i)
+            console.log(i)
 
-          document.getElementById('ingredients').innerHTML += `
+            document.getElementById('ingredients').innerHTML += `
             <h5>dish: ${ingredients[i].title}</h5>
             <img src="${ingredients[i].image}" alt="${ingredients.title}"
             >
@@ -110,15 +103,15 @@
             <button data-meal_name="${ingredients.title} class = "myFoodList">Add to List</button> 
             `
 
-          document.getElementById('name').value = ''
+            document.getElementById('name').value = ''
 
           document.getElementById('ingredients').value = ''
         }
       })
 
-      .catch(err => {
-        console.error(err)
-      })
+        .catch(err => {
+          console.error(err)
+        })
 
       document.addEventListener('click', event =>{
         
