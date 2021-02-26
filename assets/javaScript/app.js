@@ -98,7 +98,7 @@ document.getElementById('search').addEventListener('click', event => {
   let mealList = []
 
   document.getElementById('recipe').textContent = ''
-  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=f305efd996cc4fa489c91ad83e4232a4`)
+  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=d7ef68f1acc34dedb93dd4613a30a40f`)
 
     .then(res => {
 
@@ -134,7 +134,7 @@ document.getElementById('search').addEventListener('click', event => {
 
       console.log('hi')
 
-      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=f305efd996cc4fa489c91ad83e4232a4&includeNutrition=true`)
+      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
 
 
         .then(res => {
