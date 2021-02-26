@@ -8,16 +8,9 @@
   <title>Document</title>
 
   <style>
-    /* .main-container {
-      text-align: center;
-      /* background-image: linear-gradient(rgb(33, 64, 121), rgb(122, 164, 243)) ;  */
-
-      /* background-image:pngtree-png-image_1701364;  */
-
-    /* } */
-       body {
-   background: radial-gradient(circle,rgb(253, 246, 148), white);
-      }
+    body {
+      background: radial-gradient(circle, rgb(253, 246, 148), white);
+    }
 
     #sidesearch {
 
@@ -29,8 +22,7 @@
     .brand-logo {
       margin-left: 100px;
 
-    } 
-
+    }
   </style>
 
   <!-- Compiled and minified CSS -->
@@ -70,16 +62,7 @@
 
   </div>
 
-  <!-- <div>  -->
-
-  <!-- <img src="pngtree-png-image_1701364.jpg" style="transform: translate3d(-50%, 326.222px, 0px); opacity: 1;"> -->
-  <!-- <img width="1500px" height="800px" src="pngtree-png-image_1701364.jpg"> -->
-
-
-  <!-- <button id="btn">click me</button>
-
-  <div id="ingredients"></div> -->
-  </div>
+  <div id="recipe"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
@@ -91,30 +74,23 @@
       let name = document.getElementById('name').value
 
 
-
-      //d7ef68f1acc34dedb93dd4613a30a40f
-
-      //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=chicken&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
-
-      //axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=pasta&apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
       axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=9e7d249518a54e1791464c0dda14f365`)
 
-        // axios.get('https://api.spoonacular.com/recipes/716429/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true')
         .then(res => {
 
           let ingredients = res.data.results
 
           console.log(ingredients)
 
-          for (let i = 0; i < ingredients.length; i++) {
+          for (let i = 0; i < 2; i++) {
 
-           console.log(i)
+            console.log(i)
 
             document.getElementById('ingredients').innerHTML += `
             <h5>dish: ${ingredients[i].title}</h5>
             <img src="${ingredients[i].image}" alt="${ingredients.title}"
             >
-            <button data-recipe_id=${ingredients[i].id}>see recipe</button>
+            <button data-recipe_id=${ingredients[i].id}class="recipeclass">see recipe</button>
             `
 
             document.getElementById('name').value = ''
@@ -133,8 +109,32 @@
 
     })
 
-  </script>
+      // if (event.target.classList.contains('recipeclass')) {
 
+      //   console.log('hi')
+
+      //   axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=9e7d249518a54e1791464c0dda14f365&includeNutrition=true`)
+
+
+      //     .then(res => {
+
+      //       let recipe = res.data
+
+      //       console.log(recipe)
+
+      //       // document.getElementById('recipe').innerHTML = `
+      //       //     <p>recipe: ${recipe.instructions}</p>
+      //       //     `
+      //     })
+      //     .catch(err => {
+      //       console.error(err)
+      //     })
+      // }
+
+    // })
+
+
+  </script>
 </body>
 
 </html>
