@@ -27,6 +27,7 @@ document.getElementById('search').addEventListener('click', event => {
 
       console.log(ingredients)
 
+      document.getElementById('ingredients').innerHTML = ''
       for (let i = 0; i < 1; i++) {
 
         console.log(i)
@@ -69,8 +70,8 @@ document.getElementById('search').addEventListener('click', event => {
 
             document.getElementById('recipe').innerHTML = `
             <div>
-              <h2>Ingredients:</h2>
-              <ul>
+              <h2 id = 'ingredientLeft'>Ingredients:</h2>
+              <ul id = 'ingredientMarginLeft'>
                 <li>${recipe.extendedIngredients[0].original}</li>
                 <li>${recipe.extendedIngredients[1].original}</li>
                 <li>${recipe.extendedIngredients[2].original}</li>
@@ -79,8 +80,8 @@ document.getElementById('search').addEventListener('click', event => {
                 <li>${recipe.extendedIngredients[5].original}</li>
                 </ul>
               </div>
-                <h2>Instructions:</h2>
-                <p>${recipe.instructions}</p>
+                <h2 id='instructionLeft'>Instructions:</h2>
+                <p id='instructionRecipe'>${recipe.instructions}</p>
                 `
           }
         })
