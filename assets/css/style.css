@@ -40,26 +40,16 @@
 
  
 #ingredients {
-  /* display: flex;
-  flex-wrap: wrap;
-  margin:auto; */
   justify-content: center;
   margin-left: 300px;
 }
 
-/* #calorieInput {
-  background-color: rgb(214, 210, 210);
-  text-align: center;
-  margin-top: 3%;
+#ingredientLeft {
+  margin-left: 300px;
 }
 
-#shrink {
-  display: inline;
-}
-
-#imagesFixed {
-  position: relative;
-  top: 45px
+#ingredientMarginLeft {
+  margin-left: 300px;
 }
 
 /* #ingredients {
@@ -73,9 +63,14 @@
 #recipe {
   padding-left: 1.5em;
 }
+#instructionleft {
+  margin-left: 300px;
+}
 
-/* #calorieInput {
-  background-color: rgb(214, 210, 210);
+#instructionRecipe {
+  margin-left: 300px;
+  padding: 0px 0px 0px 450px;
   text-align: center;
 }
+
 
