@@ -3,97 +3,97 @@ document.getElementById('btn1').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">31st</label>
-    <input type="text" id="d31">
+    <input class="textInput" type="text" id="d31">
     <button class="save">Save</button> </p>
     `
 
@@ -172,91 +172,91 @@ document.getElementById('btn2').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     `
 
@@ -331,97 +331,97 @@ document.getElementById('btn3').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">31st</label>
-    <input type="text" id="d31">
+    <input class="textInput" type="text" id="d31">
     <button class="save">Save</button> </p>
     `
 
@@ -500,94 +500,94 @@ document.getElementById('btn4').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     `
 
@@ -664,97 +664,97 @@ document.getElementById('btn5').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">31st</label>
-    <input type="text" id="d31">
+    <input class="textInput" type="text" id="d31">
     <button class="save">Save</button> </p>
     `
 
@@ -833,94 +833,94 @@ document.getElementById('btn6').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     `
 
@@ -997,97 +997,97 @@ document.getElementById('btn7').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">31st</label>
-    <input type="text" id="d31">
+    <input class="textInput" type="text" id="d31">
     <button class="save">Save</button> </p>
     `
 
@@ -1166,97 +1166,97 @@ document.getElementById('btn8').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">31st</label>
-    <input type="text" id="d31">
+    <input class="textInput" type="text" id="d31">
     <button class="save">Save</button> </p>
     `
 
@@ -1335,94 +1335,94 @@ document.getElementById('btn9').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     `
 
@@ -1499,97 +1499,97 @@ document.getElementById('btn10').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">31st</label>
-    <input type="text" id="d31">
+    <input class="textInput" type="text" id="d31">
     <button class="save">Save</button> </p>
     `
 
@@ -1668,96 +1668,95 @@ document.getElementById('btn11').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
-    <p><label for="currentWeight">31st</label>
     `
 
 
@@ -1833,97 +1832,97 @@ document.getElementById('btn12').addEventListener('click', event => {
 
   document.getElementById('currentWeight').innerHTML = `
     <p><label for="currentWeight">1st</label>
-    <input type="text" id="d1">
+    <input type="text" id="d1" class="textInput">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">2nd</label>
-    <input type="text" id="d2">
+    <input class="textInput" type="text" id="d2">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">3rd</label>
-    <input type="text" id="d3">
+    <input class="textInput" type="text" id="d3">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">4th</label>
-    <input type="text" id="d4">
+    <input class="textInput" type="text" id="d4">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">5th</label>
-    <input type="text" id="d5">
+    <input class="textInput" type="text" id="d5">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">6th</label>
-    <input type="text" id="d6">
+    <input class="textInput" type="text" id="d6">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">7th</label>
-    <input type="text" id="d7">
+    <input class="textInput" type="text" id="d7">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">8th</label>
-    <input type="text" id="d8">
+    <input class="textInput" type="text" id="d8">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">9th</label>
-    <input type="text" id="d9">
+    <input class="textInput" type="text" id="d9">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">10th</label>
-    <input type="text" id="d10">
+    <input class="textInput" type="text" id="d10">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">11th</label>
-    <input type="text" id="d11">
+    <input class="textInput" type="text" id="d11">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">12th</label>
-    <input type="text" id="d12">
+    <input class="textInput" type="text" id="d12">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">13th</label>
-    <input type="text" id="d13">
+    <input class="textInput" type="text" id="d13">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">14th</label>
-    <input type="text" id="d14">
+    <input class="textInput" ype="text" id="d14">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">15th</label>
-    <input type="text" id="d15">
+    <input class="textInput" type="text" id="d15">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">16th</label>
-    <input type="text" id="d16">
+    <input class="textInput" type="text" id="d16">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">17th</label>
-    <input type="text" id="d17">
+    <input class="textInput" type="text" id="d17">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">18th</label>
-    <input type="text" id="d18">
+    <input class="textInput" type="text" id="d18">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">19th</label>
-    <input type="text" id="d19">
+    <input class="textInput" type="text" id="d19">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">20th</label>
-    <input type="text" id="d20">
+    <input class="textInput" type="text" id="d20">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">21st</label>
-    <input type="text" id="d21">
+    <input class="textInput" type="text" id="d21">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">22nd</label>
-    <input type="text" id="d22">
+    <input class="textInput" type="text" id="d22">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">23rd</label>
-    <input type="text" id="d23">
+    <input class="textInput" type="text" id="d23">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">24th</label>
-    <input type="text" id="d24">
+    <input class="textInput" type="text" id="d24">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">25th</label>
-    <input type="text" id="d25">
+    <input class="textInput" type="text" id="d25">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">26th</label>
-    <input type="text" id="d26">
+    <input class="textInput" type="text" id="d26">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">27th</label>
-    <input type="text" id="d27">
+    <input class="textInput" type="text" id="d27">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">28th</label>
-    <input type="text" id="d28">
+    <input class="textInput" type="text" id="d28">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">29th</label>
-    <input type="text" id="d29">
+    <input class="textInput" type="text" id="d29">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">30th</label>
-    <input type="text" id="d30">
+    <input class="textInput" type="text" id="d30">
     <button class="save">Save</button> </p>
     <p><label for="currentWeight">31st</label>
-    <input type="text" id="d31">
+    <input class="textInput" type="text" id="d31">
     <button class="save">Save</button> </p>
     `
 
