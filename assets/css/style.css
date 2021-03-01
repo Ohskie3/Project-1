@@ -1,5 +1,20 @@
 .nav-wrapper {
-  background-color: #ffab00 !important;
+  background-color: rgb(29, 196, 196) !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#brandLogo {
+  padding-left: 1%;
+  padding-top: 0.5%;
+}
+
+.hover:hover {
+  text-decoration: underline;
+  text-decoration-color: solid black;
+  text-decoration-thickness: 1px;
 }
 
 #quotes {
@@ -12,8 +27,18 @@
   margin-top: 3%;
 }
 
+#saying {
+  margin-top: 5%;
+}
+
 #cardCal {
   margin-top: 5%;
+  height: 500px;
+}
+
+#myMeals {
+  margin-top: 5%;
+  height: 200px;
 }
 
 #calPerDay {
@@ -27,48 +52,69 @@
 
 #months {
   text-align: center;
-}
-
-#quotes {
-  background-image: url("../images/zen2.jpg");
-  height: 225px;
-  background-size: cover;
-  color: black;
-  font-size: 18px;
-  font-family: 'Arima Madurai', cursive;
-}
-
- 
-#ingredients {
-  /* display: flex;
-  flex-wrap: wrap;
-  margin:auto; */
-  justify-content: center;
-  margin-left: 300px;
-}
-
-/* #calorieInput {
-  background-color: rgb(214, 210, 210);
-  text-align: center;
   margin-top: 3%;
 }
 
-#shrink {
-  display: inline;
+#quotes {
+  background-image: url("../images/mountain.jpg");
+  height: 200px;
+  background-size: cover;
+  color: black;
+  font-size: 18px;
+  font-family: 'Arima Madurai', cursive !important;
 }
 
-#imagesFixed {
-  position: relative;
-  top: 45px
+#sidesearch {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#ingredients {
+  /* justify-content: center; */
+  margin-left: 15%;
+}
+
+#ingredientLeft {
+  margin-left: 15%;
+}
+
+#ingredientMarginLeft {
+  margin-left: 15%;
+}
+
+#instructionLeft {
+  margin-left: 15%;
+}
+
+#instructionRecipe {
+  margin-left: 15%;
 }
 
 
-#recipe {
-  padding-left: 1.5em;
+.save:hover {
+  color: aquamarine;
+  background-color: white;
 }
 
-/* #calorieInput {
-  background-color: rgb(214, 210, 210);
+.save {
+  background-color: turquoise !important;
+}
+
+.happy {
+  margin-top: 3%;
+  background-image: url("../images/weight.jpg");
+  height: 800px;
+}
+
+#textRule {
+  padding-top: 8%;
+}
+
+#beachrun {
+  background-image: url("../images/beachrun.jpg");
+  height: 600px;
+}
+
+.textInput {
   text-align: center;
 }
-
