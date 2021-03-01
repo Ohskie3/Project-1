@@ -68,13 +68,13 @@ document.getElementById('search').addEventListener('click', event => {
         document.getElementById('ingredients').innerHTML += `
             <h5>dish: ${ingredients[i].title}</h5>
             <img src="${ingredients[i].image}" alt="${ingredients.title}">
-            <button data-recipe_id="${ingredients[i].id}" class="recipeclass">see recipe</button>
+            <button button data - recipe_id="${ingredients[i].id}" class="recipeclass" > see recipe</button >
             <button data-recipe_id="${ingredients[i].id}" data-meal_name="${ingredients[i].title}"
             class="addBtn">Add to List</button>
             `
 
         document.getElementById('name').value = ''
-        // document.getElementById('ingredients').value = ''
+        document.getElementById('ingredients').value = ''
       }
     })
     .then(() => {
@@ -87,7 +87,7 @@ document.getElementById('search').addEventListener('click', event => {
         buildMealList()
       });
     })
-
+    
     .catch(err => {
       console.error(err)
     })
