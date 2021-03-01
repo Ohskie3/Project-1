@@ -1,12 +1,14 @@
+
+// set up an app namespace
 let app = {}
-
+// setting the location the app to be local storage
 app.db = window.localStorage;
-
+// how the data is being stored there and how its rendered
 app.storeData = function(key, value) {
-  // return JSON.parse(app.db.getItem(key))
+
   return app.db.setItem(key, JSON.stringify(value))
 }
-
+// appending the data in lieu of replacing the data 
 app.appendData = function(key,value) {
   let arr = app.readData(key) || []
   arr.push(value)
@@ -16,7 +18,7 @@ app.appendData = function(key,value) {
 app.readData = function(key) {
   return JSON.parse(app.db.getItem(key))
 }
-
+// retrieving the data for the meallist card and inserting it.  
 function buildMealList(event) {
   if (Boolean(event)) event.preventDefault();
 
@@ -26,7 +28,7 @@ function buildMealList(event) {
     return `<li>${i}</li>`
   })
 
-
+// removing a comma that was being inserted into my meals.
   document.querySelector('.card-content > ol').innerHTML = list.join('')
 }
 
@@ -74,7 +76,7 @@ document.getElementById('search').addEventListener('click', event => {
             `
 
         document.getElementById('name').value = ''
-        // document.getElementById('ingredients').value = ''
+        document.getElementById('ingredients').value = ''
       }
     })
     .then(() => {
@@ -87,7 +89,7 @@ document.getElementById('search').addEventListener('click', event => {
         buildMealList()
       });
     })
-
+    
     .catch(err => {
       console.error(err)
     })
