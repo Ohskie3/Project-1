@@ -66,10 +66,10 @@ document.getElementById('search').addEventListener('click', event => {
         console.log(i)
 
         document.getElementById('ingredients').innerHTML += `
-            <h5>dish: ${ingredients[i].title}</h5>
+            <h5>Dish: ${ingredients[i].title}</h5>
             <img src="${ingredients[i].image}" alt="${ingredients.title}">
-            <button data-recipe_id="${ingredients[i].id}" class="recipeclass">see recipe</button>
-            <button data-recipe_id="${ingredients[i].id}" data-meal_name="${ingredients[i].title}"
+            <button data-recipe_id="${ingredients[i].id}" class="recipeclass waves-effect waves-light btn">see recipe</button>
+            <button data-recipe_id="${ingredients[i].id}" class="waves-effect waves-light btn" data-meal_name="${ingredients[i].title}"
             class="addBtn">Add to List</button>
             `
 
@@ -96,7 +96,7 @@ document.getElementById('search').addEventListener('click', event => {
 
     if (event.target.classList.contains('recipeclass')) {
 
-      console.log('hi')
+      // console.log('hi')
 
       axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=caecc410cdf7406d8f2804239ab94a67&includeNutrition=true`)
 
@@ -123,6 +123,7 @@ document.getElementById('search').addEventListener('click', event => {
               </div>
                 <h2 id='instructionLeft'>Instructions:</h2>
                 <p id='instructionRecipe'>${recipe.instructions}</p>
+                <ol id="recipeLi"></ol>
           `
           document.getElementById('recipe').innerHTML = list
         })
@@ -130,7 +131,7 @@ document.getElementById('search').addEventListener('click', event => {
           console.error(err)
         })
     } if (event.target.classList.contains('myFoodList')) {
-      console.log('hi')
+      // console.log('hi')
       document.getElementById('myList').append(dish)
 
     }
