@@ -1,5 +1,20 @@
 .nav-wrapper {
-  background-color: #ffab00 !important;
+  background-color: rgb(29, 196, 196) !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#brandLogo {
+  padding-left: 1%;
+  padding-top: 0.5%;
+}
+
+.hover:hover {
+  text-decoration: underline;
+  text-decoration-color: solid black;
+  text-decoration-thickness: 1px;
 }
 
 #quotes {
@@ -12,8 +27,18 @@
   margin-top: 3%;
 }
 
+#saying {
+  margin-top: 5%;
+}
+
 #cardCal {
   margin-top: 5%;
+  height: 500px;
+}
+
+#myMeals {
+  margin-top: 5%;
+  height: 200px;
 }
 
 #calPerDay {
@@ -27,51 +52,69 @@
 
 #months {
   text-align: center;
+  margin-top: 3%;
 }
 
 #quotes {
-  background-image: url("../images/zen2.jpg");
-  height: 225px;
+  background-image: url("../images/mountain.jpg");
+  height: 200px;
   background-size: cover;
   color: black;
   font-size: 18px;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Arima Madurai', cursive !important;
 }
 
- 
+#sidesearch {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 #ingredients {
-  justify-content: center;
-  margin-left: 300px;
+  /* justify-content: center; */
+  margin-left: 15%;
 }
 
 #ingredientLeft {
-  margin-left: 300px;
+  margin-left: 15%;
 }
 
 #ingredientMarginLeft {
-  margin-left: 300px;
+  margin-left: 15%;
 }
 
-/* #ingredients {
-   display: grid;
-   grid-template-columns: 2fr 2fr 2fr; 
-   grid-template-rows: 2fr 2fr 2fr; 
-} */
-
-
-
-#recipe {
-  padding-left: 1.5em;
-}
-#instructionleft {
-  margin-left: 300px;
+#instructionLeft {
+  margin-left: 15%;
 }
 
 #instructionRecipe {
-  margin-left: 300px;
-  padding: 0px 0px 0px 450px;
-  text-align: center;
-  align-items: left;
+  margin-left: 15%;
 }
 
 
+.save:hover {
+  color: aquamarine;
+  background-color: white;
+}
+
+.save {
+  background-color: turquoise !important;
+}
+
+.happy {
+  margin-top: 3%;
+  background-image: url("../images/weight.jpg");
+  height: 800px;
+}
+
+#textRule {
+  padding-top: 8%;
+}
+
+#beachrun {
+  background-image: url("../images/beachrun.jpg");
+  height: 600px;
+}
+
+.textInput {
+  text-align: center;
+}

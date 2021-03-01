@@ -5,23 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calorie Calculator</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Playball&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
   <nav>
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo"><img
+      <a href="index.html" class="brand-logo hover" id="brandLogo"><img
           src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/597/4729040597_fc250456-4045-459e-bc23-cc478c091739.png?cb=1614193297"
           alt="" style="width: 75px; height: 50px;"></a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="caloriecalculator.html">Calorie Calculator</a></li>
-        <li><a href="weightracker.html">Daily Weight Tracker</a></li>
+        <li class="hover"><a class="black-text" href="caloriecalculator.html">Calorie Calculator</a></li>
+        <li class="hover"><a class="black-text" href="weightracker.html">Daily Weight Tracker</a></li>
       </ul>
     </div>
   </nav>
+ 
   <div class="container">
     <div class="row">
     <div class="col s6">
@@ -30,8 +35,8 @@
       </div>
       <!-- My Calorie intake card -->
       <div class="col s6">
-        <div class="card grey darken-1">
-          <div class="card-content white-text" id="cardCal">
+        <div class="card white darken-1">
+          <div class="card-content black-text" id="cardCal">
             <span class="card-title">My Calorie Intake</span>
             <form>
               <input type="text" id="calorieInput">
@@ -39,18 +44,17 @@
             </form>
             <div id="calPerDay">
             </div>
+            <p id="textRule">General Rule: To lose about 1 pound per week, aim to eat 500 fewer calories per day, or burn those calories from exercise. Important: Do not go below 1,200 calories per day without a doctor's recommendation or medical supervision. There is not necessarily a single "best" weight loss diet that works for everyone. Listen to your body.</p>
           </div>
         </div>
       </div>
       </div>
-
+      <div id="beachrun"></div>
     </div>
 
-
-    <scrip src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></scrip>
-    <scrip src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></scrip>
-    <scrip src="./assets/javaScript/calculator.js"></scrip>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/javaScript/calculator.js"></script>
 </body>
 
 </html>
