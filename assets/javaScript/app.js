@@ -51,7 +51,7 @@ document.getElementById('search').addEventListener('click', event => {
   let mealList = []
 
   document.getElementById('recipe').textContent = ''
-  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=d7ef68f1acc34dedb93dd4613a30a40f`)
+  axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${name}&apiKey=f305efd996cc4fa489c91ad83e4232a4`)
 
     .then(res => {
 
@@ -61,7 +61,7 @@ document.getElementById('search').addEventListener('click', event => {
       console.log(ingredients)
 
       document.getElementById('ingredients').innerHTML = ''
-      for (let i = 0; i < 1; i++) {
+      for (let i = 0; i < 5; i++) {
 
         console.log(i)
 
@@ -69,7 +69,7 @@ document.getElementById('search').addEventListener('click', event => {
             <h5>Dish: ${ingredients[i].title}</h5>
             <img src="${ingredients[i].image}" alt="${ingredients.title}">
             <button data-recipe_id="${ingredients[i].id}" class="recipeclass waves-effect waves-light btn">see recipe</button>
-            <button data-recipe_id="${ingredients[i].id}" class="waves-effect waves-light btn" data-meal_name="${ingredients[i].title}"
+            <button data-recipe_id="${ingredients[i].id}" class="addBtn waves-effect waves-light btn" data-meal_name="${ingredients[i].title}"
             class="addBtn">Add to List</button>
             `
 
@@ -98,7 +98,7 @@ document.getElementById('search').addEventListener('click', event => {
 
       // console.log('hi')
 
-      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=d7ef68f1acc34dedb93dd4613a30a40f&includeNutrition=true`)
+      axios.get(`https://api.spoonacular.com/recipes/${event.target.dataset.recipe_id}/information?apiKey=f305efd996cc4fa489c91ad83e4232a4&includeNutrition=true`)
 
 
         .then(res => {
@@ -122,7 +122,7 @@ document.getElementById('search').addEventListener('click', event => {
               </ul>
               </div>
                 <h2 id='instructionLeft'>Instructions:</h2>
-                <p id='instructionRecipe'>${recipe.instructions}</p>
+                <h6 style="margin-left: 15%;" id='instructionRecipe'>${recipe.instructions}</h6>
                 <ol id="recipeLi"></ol>
           `
           document.getElementById('recipe').innerHTML = list
