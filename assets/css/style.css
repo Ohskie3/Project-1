@@ -114,3 +114,7 @@ body {
   background-image: url("../images/beachrun.jpg");
   height: 600px;
 }
+
+.textInput {
+  text-align: center;
+}
